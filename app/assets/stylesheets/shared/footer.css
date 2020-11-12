@@ -1,0 +1,14 @@
+/* 画面下部 */
+.footer{
+  width: 100vw;
+  height: 15vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  .footer-contents{
+    font-size: 40px;
+    color: white;
+  }

@@ -1,0 +1,110 @@
+a {
+  text-decoration: none;
+}
+
+.main {
+  background: #f8f8f8;
+}
+
+/* 画面上部の写真 */
+.title-contents {
+  background-image: image-url('austin-distel-rxpThOwuVgE-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+/* コンセプト */
+.concept-title{
+  font-size: 30px;
+  padding: 40px 30vw 10px 30vw;
+  font-family: serif;
+}
+
+  .concept-font{
+    padding: 0 30vw 100px 30vw;
+    font-family: serif;
+    font-size: 16px;
+  }
+
+/* 使用方法 */
+.method{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+  .method-list{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+
+  .list-pict{
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .reason-list-number{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+    background-color: black;
+    color: #fff;
+  }
+
+  .reason-list-text {
+    font-size: 20px;
+    line-height: 50px;
+    font-family: serif;
+  }
+
+/* プレゼン一覧 */
+.presentation-contents {
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10vh 0;
+}
+
+
+
+  /* 検索フォーム */
+  .search-form {
+    width: 50vw;
+    height: 5vh;
+    display: flex;
+    margin: 50px 23vw 50px 30vw;
+  }
+
+  .search-form>.input-box {
+    width: 80%;
+    height: 5vh;
+    padding-left: 5px;
+  }
+
+  .search-button {
+    width: 5vh;
+    border: 0;
+    cursor: pointer;
+    background-color: navy;
+    padding: 8px;
+  }
+
+  .search-icon {
+    width: 100%;
+  }
+
+  /* 動画一覧 */
+  
