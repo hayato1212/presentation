@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+.top-page-header {
+  width: 100vw;
+  padding: 2vh 5vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.head-bar-contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 35px;
+  font-family: serif;
+}
+
+.right-contents{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-nickname {
+  text-decoration: none;
+  margin-right: 3vw;
+  color: #333333;
+  font-family: serif;
+}
+
+
+.logout {
+  text-decoration: none;
+  color: #333333;
+  font-family: serif;
+}
+
+.login {
+  text-decoration: none;
+  line-height: 32px;
+  margin-right: 3vw;
+  color: #333333;
+  font-size: 20px;
+  font-family: serif;
+}
+
+.sign-up {
+  text-decoration: none;
+  color: #333333;
+  font-size: 20px;
+  font-family: serif;
+}
